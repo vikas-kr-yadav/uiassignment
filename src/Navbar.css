@@ -1,0 +1,76 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #1A1A1A;
+    color: #626262;
+    /* padding: 10px 20px; */
+    width: 100vw;
+    height: 42px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+  }
+  
+  .follow-us {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icon {
+    margin-left: 10px;
+    color:  #626262;
+    text-decoration: none;
+  }
+  
+  .social-icon:first-child {
+    margin-left: 0;
+  }
+
+  .truck {
+    width: 21.000347137451172px;
+    height: 12.904118537902832px;
+    top: 15px;
+    left: 90px;
+    border: 0.4px solid #191919;
+    color:  #626262;
+
+  }
+  
+  .free-delivery {
+    width: 76px;
+    height: 18px;
+    top: 13px;
+    left: 118px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .return-policy {
+    width: 109px;
+    height: 15px;
+    top: 13px;
+    left: 222px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .login {
+    padding: 30px
+  }

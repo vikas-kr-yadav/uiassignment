@@ -1,0 +1,133 @@
+ .nav2 {
+    background-color: #222222; 
+    width: 100vw;
+    height: 749px;
+    color: #ffffff;
+    flex-shrink: 0;
+    position: relative;
+  } 
+
+.lable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 44px;
+} 
+
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-list2{
+    list-style: none;
+    display: flex;
+    gap: 150px;
+    margin-top: 11px;
+    margin-left: 44px;
+}
+
+.product {
+    list-style: none;
+}
+
+
+
+.logo a{
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 275;
+line-height: normal;
+}
+
+.nav-list a{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-list2 a{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+  
+a {
+    text-decoration: none;
+  }
+  
+
+.bgimg{
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    opacity: .9;
+}
+
+.orange{
+    width: 1150px;
+    height: 354.301px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 310px;
+    left: 25%;
+    right: 0;
+    background: var(--pimary-colour, #F07E15);
+    z-index: 0;
+}  
+  
+
+.fresh {
+    position: absolute;
+    top: 32.5%;
+    left: 2%;
+    z-index: 1;
+}
+
+.fresh span{
+
+    color: #FFF;
+    font-family: Syne;
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px;
+    
+}
+
+ .year  {
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    z-index: 1;
+ }
+
+ .year span{
+    font-family: Syne;
+    font-size: 135px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 102.6px; /* 76% */
+ }
+
+
+ .look{
+    top: 60%;
+    left: 6.9%;
+    z-index: 1;
+ }
+
+
+ .line{
+    ;
+ }
