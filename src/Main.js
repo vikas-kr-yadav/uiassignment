@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css';
 import bgimage from './Image/img.png';
+import {FiArrowUpRight} from 'react-icons/fi';
 
 const main = () => {
   return (
@@ -31,6 +32,9 @@ const main = () => {
             <div className='look fresh'><span>Look</span></div>
           <img className='bgimg' src={bgimage} alt="Logo" />
           <div className='orange'></div>
+          <div className='arrow'>See more <FiArrowUpRight/></div>
+          <div className='jacket'><span>OREGON JACKET</span></div>
+          <div className='price'><span>$124</span></div>
         </ul>
     </div>
     

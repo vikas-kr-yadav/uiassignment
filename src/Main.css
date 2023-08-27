@@ -19,6 +19,8 @@
     list-style: none;
     display: flex;
     gap: 15px;
+    margin-right: 44px;
+
 }
 
 .nav-list2{
@@ -72,6 +74,7 @@ a {
     position: relative;
     z-index: 1;
     opacity: .9;
+    right: 10%;
 }
 
 .orange{
@@ -113,6 +116,9 @@ a {
  }
 
  .year span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
     font-family: Syne;
     font-size: 135px;
     font-style: normal;
@@ -128,6 +134,29 @@ a {
  }
 
 
- .line{
-    ;
+ .arrow {
+    position: absolute;
+    top: 80%;
+    left: 4%;
+ }
+
+ .jacket {
+    position: absolute;
+    top: 75%;
+    left: 82%;
+ }
+
+ .jacket span{
+    color: #222222;
+ }
+
+
+ .price {
+    position: absolute;
+    top: 78%;
+    left: 82%;
+ }
+
+ .price span{
+    color: #222222;
  }
